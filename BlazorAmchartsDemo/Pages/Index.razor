@@ -1,0 +1,20 @@
+﻿@page "/"
+@inject IJSRuntime JS
+<h1> AmCharts 4 Demo in Blazor</h1>
+<button @onclick="GenerateColumnChart">Show Column Chart</button>
+<button @onclick="GeneratePieChart">Show Pie Chart</button>
+
+<div id="chartdiv"></div>
+<div id="chartdiv1"></div>
+
+@code{
+    private async Task GenerateColumnChart()
+    {
+        await JS.InvokeVoidAsync("CreateColumnChart");
+    }
+
+    private async Task GeneratePieChart()
+    {
+        await JS.InvokeVoidAsync("CreatePieChart");
+    }
+}

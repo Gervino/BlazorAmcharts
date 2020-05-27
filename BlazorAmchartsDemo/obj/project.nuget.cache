@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "HGBCvg8kHp6NnwC7a2Zo8uumFpqBWIic4DxvcXuIhs2yQY99Xc2LjYAqwkRKRl8Jqt0QBwNnRsWlW/l1zQafrw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kouge\\source\\repos\\Blazor\\BlazorAmchartsDemo\\BlazorAmchartsDemo\\BlazorAmchartsDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kouge\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512"
+  ],
+  "logs": []
+}
